@@ -1,4 +1,4 @@
-# This docker uses fsl's bet to extract the brain from a T1 image.
+# This docker uses fsl's bet to extract a brain from a T1 image.
 # example run 
 # docker run docker run -v FOLDER_with_T1_images:/input -v OUTPUTFOLDER:/output myfsl
 # FOLDER_with_T1_images and OUTPUTFOLDER have to be real paths on your system 
