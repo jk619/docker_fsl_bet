@@ -1,7 +1,9 @@
 # This docker uses fsl's bet to extract a brain from a T1 image.
 # example run 
 # docker run -v FOLDER_with_T1_images:/input -v OUTPUTFOLDER:/output myfsl
-# FOLDER_with_T1_images and OUTPUTFOLDER have to be real paths on your system 
+# FOLDER_with_T1_images and OUTPUTFOLDER have to be real paths on your system. If you have more than one T1 in the input directory all images 
+# are going to be processed
+
 FROM ubuntu:latest
 
 MAINTAINER JWK
